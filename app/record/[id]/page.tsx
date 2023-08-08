@@ -27,7 +27,7 @@ const Page = async (props: any) => {
 
   const revalidateRecordsPath = async () => {
     "use server";
-    revalidatePath("/records");
+    revalidatePath("/records/(records)/");
   };
 
   const updateReadToTrue = async () => {

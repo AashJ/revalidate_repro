@@ -1,8 +1,8 @@
 import type { FC } from "react";
 import React from "react";
-import { db } from "../db";
 import type { Record } from "@/types";
 import Link from "next/link";
+import { db } from "@/app/db";
 
 export type RecordsTableProps = {};
 
